@@ -1,0 +1,193 @@
+#cart {
+    background-color: #EEE9FB;
+}
+
+#cart .container {
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .container .item-container {
+    flex-basis: 68%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#cart .container .item-container .title {
+    font-size: 1.35rem;
+    padding: 1.1rem 1.4rem;
+}
+
+#cart .container .item-container .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#cart .container .item-container .cart-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+#cart .container .item-container .cart-item .item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#cart .container .item-container .cart-item .item-img img {
+    width: 100px;
+}
+
+#cart .container .item-container .cart-item .item-discription {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+#cart .container .item-container .cart-item .item-discription .item-price {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+#cart .container .item-container .cart-item .item-discription .item-price strike {
+    color: #509C54;
+    margin-left: 0.6rem;
+}
+
+#cart .container .item-container .cart-item .item-discription button {
+    color: #fff;
+    background-color: #000;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#cart .container .item-container .cart-item .item-counter {
+    line-height: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#cart .container .item-container .cart-item .item-counter i {
+    cursor: pointer;
+}
+
+#cart .container .item-container .cart-item .item-counter div {
+    font-size: 1.2rem;
+}
+
+#cart .container .item-container .cart-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    box-shadow: 2px 2px 9px 3px rgba(0, 0, 0, 0.3);
+}
+
+#cart .container .item-container .cart-btn button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: #F21B3F;
+    color: #fff;
+    cursor: pointer;
+}
+
+#cart .container .price-table {
+    flex-basis: 29%;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    height: 56vh;
+}
+
+#cart .container .price-table .title {
+    padding: 1rem 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#cart .container .price-table .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#cart .container .price-table .price-details {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+
+#cart .container .price-table .price-details .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#cart .container .price-table .price-details .discount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#cart .container .price-table .price-details .discount .number {
+    color: #509C54;
+    font-weight: 600;
+}
+
+#cart .container .price-table .price-details .delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+
+#cart .container .price-table .price-details .delivery .text {
+    color: #509C54;
+    font-weight: 600;
+}
+
+#cart .container .price-table .cart-total {
+    padding: 2rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+#cart .container .price-table .greetings {
+    color: #509C54;
+    padding: 1.5rem 1.2rem;
+    font-weight: 800;
+}

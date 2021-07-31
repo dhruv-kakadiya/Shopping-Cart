@@ -1,0 +1,103 @@
+import Product1 from '../images/product1.jpeg';
+import Product2 from '../images/product2.jpeg';
+
+const ItemsListData = [
+    {
+        id: 0,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 1,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 2,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 3,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 4,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 5,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 6,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 7,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 8,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 9,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 10,
+        img: Product1,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+    {
+        id: 11,
+        img: Product2,
+        company: "ZARA",
+        name: "Mens' T-shirt",
+        discountedPrice: 2000,
+        realPrice: 4000,
+    },
+];
+
+export default ItemsListData;

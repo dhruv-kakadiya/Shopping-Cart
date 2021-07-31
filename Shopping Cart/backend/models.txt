@@ -1,0 +1,35 @@
+Category
+    -name
+    -image
+
+Item
+    -name
+    -company
+    -main_image
+    -helper_image1
+    -helper_image2
+    -helper_image3
+    -helper_image4
+    -actual_price
+    -discount
+    -quantity_available
+    -category
+
+Order
+    -item
+    -quantity
+
+
+Cart
+    -order
+    -total_quantity
+    -price_withour_discount
+    -discount
+    -total_price
+    -delivery_charge
+
+
+User
+    -username
+    -email
+    -
