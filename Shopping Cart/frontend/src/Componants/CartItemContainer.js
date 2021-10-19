@@ -37,11 +37,11 @@ function CartItemContainer() {
                             </div>
                             <div className="discount">
                                 <div>Discount</div>
-                                <div class="number">-₹4000</div>
+                                <div className="number">-₹4000</div>
                             </div>
                             <div className="delivery">
                                 <div>Dilevery Charges</div>
-                                <div class="text">FREE</div>
+                                <div className="text">FREE</div>
                             </div>
                             <div className="horizontal-line"></div>
                         </div>

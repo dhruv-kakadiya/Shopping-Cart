@@ -8,11 +8,10 @@ function Categories() {
 
     const fetchCategories = () => {
         axios.get("http://127.0.0.1:8000/api/get-categories/")
-            .then((res) => {
-                let data = res.data;
-                console.log(data);
-                setCategories(data);
-            })
+        .then((res) => {
+            let data = res.data;
+            setCategories(data);
+        })
     }
 
     useEffect(() => {

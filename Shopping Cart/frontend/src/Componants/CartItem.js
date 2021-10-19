@@ -18,7 +18,7 @@ function CartItem({img, name, discountedPrice, realPrice}) {
                 </div>
                 <div className="item-counter">
                     <FaChevronUp/>
-                    <div class="item-count">2</div>
+                    <div className="item-count">2</div>
                     <FaChevronDown/>
                 </div>
             </div>

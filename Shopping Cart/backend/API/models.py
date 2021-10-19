@@ -18,9 +18,10 @@ class Product(models.Model):
     image4 = models.CharField(max_length=1000)
     image5 = models.CharField(max_length=1000)
     company = models.CharField(max_length=100)
-    discountedPrice = models.IntegerField(default=0)
+    star = models.FloatField(default=0.0)
+    quantity = models.IntegerField(default=0)
     actualPrice = models.IntegerField(default=0)
-    numberAvailable = models.IntegerField(default=0)
+    discountedPrice = models.IntegerField(default=0)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
     def __str__(self):

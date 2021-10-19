@@ -5,7 +5,7 @@ import Slide from './Slide';
 
 
 function Carousel() {
-	const [slides, setSlides] = useState(slidesData);
+	const slides = slidesData;
 	const [index, setIndex] = useState(0);
 
 	useEffect(() => {

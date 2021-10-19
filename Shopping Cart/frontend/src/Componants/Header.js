@@ -25,7 +25,7 @@ function header() {
 				</form>
 			</div>
 			<div className="nav-btns">
-				<Link to="/login"><button className="signin">Log In</button></Link>
+				<Link to="/signup"><button className="signin">Sign Up</button></Link>
 				<FaShoppingCart className="fa"/>
 				<div className="count">50</div>
 			</div>
